@@ -44,7 +44,8 @@ def check_and_notify():
     try:
         result = subprocess.run(
             [sys.executable, MONITOR_SCRIPT, "check"],
-            capture_output=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
             timeout=60
         )
