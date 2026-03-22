@@ -1,9 +1,9 @@
 {
   "name": "wukong-invite-monitor",
-  "version": "2.1.0",
-  "description": "钉钉悟空邀请码监控，零 token 消耗。支持本地 OCR 识别和心跳推送通知。",
+  "version": "2.2.0",
+  "description": "钉钉悟空邀请码监控，自动截图 +OCR 识别，心跳推送通知。当前邀请码：灵山坠真经",
   "author": "teenyboy",
   "license": "MIT",
-  "tags": ["monitor", "wukong", "ocr", "lightweight", "zero-token", "heartbeat"],
-  "changelog": "v2.1.0 - 新增心跳推送通知功能，只在官方更新时间段检查，避免重复通知"
+  "tags": ["monitor", "wukong", "ocr", "playwright", "heartbeat", "auto-skip"],
+  "changelog": "v2.2.0 - 修复版：自动点击跳过动画 + Playwright 截图 + 心跳集成 + Python 3.8 兼容性修复"
 }
