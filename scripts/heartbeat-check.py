@@ -46,7 +46,7 @@ def check_and_notify():
             [sys.executable, MONITOR_SCRIPT, "check"],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            text=True,
+            universal_newlines=True,
             timeout=60
         )
         
