@@ -1,7 +1,7 @@
 ---
 name: wukong-invite-monitor
-description: 钉钉悟空邀请码监控，自动截图 + OCR 识别，支持心跳推送通知。当前邀请码：灵山坠真经
-version: 2.0.0
+description: 钉钉悟空邀请码监控，自动截图 +OCR 识别，心跳推送通知。当前邀请码：灵山坠真经
+version: 2.2.0
 ---
 
 # 悟空邀请码监控 - 修复版
